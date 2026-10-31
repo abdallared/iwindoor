@@ -1,0 +1,72 @@
+{
+  "format": "frame-workshop",
+  "version": 1,
+  "project": {
+    "id": "421f2fd4-63c1-44b1-a650-63f0899affc0",
+    "name": "Garden house renovation",
+    "customer": "Browser test customer",
+    "email": "",
+    "reference": "FW-001",
+    "date": "2026-10-24",
+    "notes": "Planning estimate. Final measurements and material specifications to be confirmed on site.",
+    "items": [
+      {
+        "id": "33d0e530-b8a7-4c88-afc4-58a9ac58a5bf",
+        "name": "Living room window",
+        "width": 1600,
+        "height": 1400,
+        "quantity": 3,
+        "material": "UPVC",
+        "finish": "white",
+        "glass": "double",
+        "cols": 2,
+        "rows": 1,
+        "panels": [
+          "left",
+          "tilt"
+        ],
+        "profile": 60,
+        "sash": 50
+      },
+      {
+        "id": "34506baf-f55b-4ae4-ac82-a7e91d6e4244",
+        "name": "Entrance door",
+        "width": 900,
+        "height": 2100,
+        "quantity": 1,
+        "material": "UPVC",
+        "finish": "white",
+        "glass": "double",
+        "cols": 1,
+        "rows": 1,
+        "panels": [
+          "right"
+        ],
+        "profile": 60,
+        "sash": 50
+      }
+    ],
+    "settings": {
+      "currency": "USD",
+      "rates": {
+        "UPVC": 14,
+        "PVC": 11,
+        "Aluminium": 18
+      },
+      "glassRates": {
+        "single": 28,
+        "double": 52,
+        "triple": 78
+      },
+      "infillRate": 60,
+      "hardware": 24,
+      "labor": 35,
+      "waste": 8,
+      "markup": 25,
+      "discount": 10,
+      "tax": 14,
+      "stockLength": 6000,
+      "kerf": 3
+    }
+  }
+}

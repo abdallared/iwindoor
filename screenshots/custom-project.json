@@ -1,0 +1,157 @@
+{
+  "format": "frame-workshop",
+  "version": 1,
+  "project": {
+    "id": "ef8b6419-5905-43c4-91df-2dd06f069264",
+    "name": "Garden house renovation",
+    "customer": "Alex Morgan",
+    "email": "",
+    "reference": "FW-001",
+    "date": "2026-10-24",
+    "notes": "Planning estimate. Final measurements and material specifications to be confirmed on site.",
+    "items": [
+      {
+        "id": "ffe750ce-c89e-49a6-b8d8-b98a91140295",
+        "name": "Living room window",
+        "width": 1200,
+        "height": 1400,
+        "quantity": 2,
+        "material": "UPVC",
+        "finish": "white",
+        "glass": "double",
+        "cols": 2,
+        "rows": 1,
+        "panels": [
+          "left",
+          "right"
+        ],
+        "profile": 60,
+        "sash": 50
+      },
+      {
+        "id": "ffd00b6d-15bd-43d4-b689-49bd51cb26f2",
+        "name": "Corner · fixed + sliding",
+        "width": 1200,
+        "height": 1400,
+        "quantity": 1,
+        "material": "UPVC",
+        "finish": "white",
+        "glass": "double",
+        "cols": 2,
+        "rows": 1,
+        "panels": [
+          "left",
+          "right"
+        ],
+        "profile": 60,
+        "sash": 50,
+        "design": {
+          "version": 2,
+          "shape": "corner",
+          "archRise": 300,
+          "returnWidth": 2000,
+          "frameJoint": "mitre",
+          "sashJoint": "butt",
+          "systemName": "Workshop system 45-90",
+          "frameAllowance": 3,
+          "sashAllowance": 2,
+          "glassGap": 4,
+          "layouts": [
+            {
+              "id": "98dd2ed4-cea5-458d-8b4b-d13c3a1332c3",
+              "kind": "split",
+              "axis": "horizontal",
+              "ratio": 0.4098360655737705,
+              "children": [
+                {
+                  "id": "a82f3bec-4355-44fc-8c77-755d6b873e7c",
+                  "kind": "panel",
+                  "mode": "fixed",
+                  "handle": {
+                    "type": "lever",
+                    "color": "silver",
+                    "side": "auto",
+                    "height": 0,
+                    "extraCost": 0
+                  }
+                },
+                {
+                  "id": "825cb78c-3d51-4995-a8ab-1023c76f2a76",
+                  "kind": "panel",
+                  "mode": "fixed",
+                  "handle": {
+                    "type": "lever",
+                    "color": "silver",
+                    "side": "auto",
+                    "height": 0,
+                    "extraCost": 0
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c922d962-995e-4c32-b977-cf0bfaf90075",
+              "kind": "sliding",
+              "meetingWidth": 20,
+              "meetingJoint": "butt",
+              "outerWidth": 50,
+              "outerJoint": "butt",
+              "railWidth": 50,
+              "railJoint": "mitre",
+              "overlap": 20,
+              "tracks": 2,
+              "children": [
+                {
+                  "id": "a31c7788-2b5c-4444-b57b-b9c5b0aaea99",
+                  "kind": "panel",
+                  "mode": "slide-left",
+                  "handle": {
+                    "type": "pull",
+                    "color": "black",
+                    "side": "auto",
+                    "height": 600,
+                    "extraCost": 25
+                  }
+                },
+                {
+                  "id": "8efb8951-ebcf-4cb3-94f7-a3efc5593fd9",
+                  "kind": "panel",
+                  "mode": "slide-right",
+                  "handle": {
+                    "type": "flush",
+                    "color": "silver",
+                    "side": "auto",
+                    "height": 0,
+                    "extraCost": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "settings": {
+      "currency": "USD",
+      "rates": {
+        "UPVC": 14,
+        "PVC": 11,
+        "Aluminium": 18
+      },
+      "glassRates": {
+        "single": 28,
+        "double": 52,
+        "triple": 78
+      },
+      "infillRate": 45,
+      "hardware": 24,
+      "labor": 35,
+      "waste": 8,
+      "markup": 25,
+      "discount": 0,
+      "tax": 0,
+      "stockLength": 6000,
+      "kerf": 3
+    }
+  }
+}

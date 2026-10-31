@@ -1,0 +1,7 @@
+﻿"Item","Width (mm)","Height (mm)","Quantity","Material","Glazing","Unit price","Amount","Currency"
+"Living room window","1600","1400","3","UPVC","double","492.85","1478.54","USD"
+"Entrance door","900","2100","1","UPVC","double","381.22","381.22","USD"
+"Subtotal","","","","","","","1859.76","USD"
+"Discount","","","","","","","185.98","USD"
+"Tax","","","","","","","234.33","USD"
+"Total","","","","","","","1908.11","USD"

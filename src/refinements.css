@@ -1,0 +1,150 @@
+/* Readable controls at both desktop and handheld sizes. */
+.nav-item {
+  font-size: 13px;
+}
+.button {
+  font-size: 12px;
+}
+.breadcrumbs,
+.page-heading p {
+  font-size: 12px;
+}
+.field > span,
+.field input,
+.field select,
+.field textarea {
+  font-size: 12px;
+}
+.section-title h3,
+.inspector-title h2 {
+  font-size: 12px;
+}
+.opening-option span {
+  font-size: 9px;
+}
+.selected-panel-label,
+.finish-option {
+  font-size: 10px;
+}
+.canvas-toolbar strong,
+.item-tab {
+  font-size: 12px;
+}
+.item-tab small,
+.canvas-legend,
+.canvas-legend .legend-right {
+  font-size: 10px;
+}
+.stat > div > span,
+.estimate-footnote {
+  font-size: 10px;
+}
+.saved,
+.sidebar-bottom p,
+.sidebar-footer .text-button {
+  font-size: 11px;
+}
+.input-wrap small {
+  font-size: 9px;
+}
+.drawing-caption {
+  font-size: 10px;
+}
+.canvas-meta {
+  font-size: 8px;
+}
+.quote-item small,
+.quote-notes p,
+.quote-footer,
+.report-note {
+  font-size: 11px;
+}
+.settings-card .field > span,
+.rate-row > div > small {
+  font-size: 11px;
+}
+.inspector details summary {
+  font-size: 11px;
+}
+.empty-state > .button + .button {
+  margin-top: 10px;
+}
+.field > span,
+.stat > div > span,
+.drawing-caption,
+.estimate-footnote,
+.saved,
+.canvas-meta,
+.canvas-legend,
+.project-summary small,
+.page-heading p,
+.quote-item small,
+.quote-notes p,
+.quote-footer,
+.report-note {
+  color: #687561;
+}
+.sidebar-bottom p {
+  color: #a3c1ae;
+}
+@media (max-width: 1180px) {
+  .nav-item {
+    font-size: 12px;
+  }
+  .canvas-toolbar strong {
+    max-width: 150px;
+  }
+  .canvas-legend {
+    gap: 10px;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 45px;
+    padding-block: 9px;
+  }
+}
+@media (max-width: 700px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .sidebar.mobile-open {
+    visibility: visible;
+  }
+  .canvas-toolbar strong {
+    max-width: 130px;
+    font-size: 11px;
+  }
+  .canvas-toolbar .toolbar-actions {
+    gap: 0 !important;
+  }
+  .canvas-toolbar .toolbar-divider {
+    margin-inline: 2px;
+  }
+  .canvas-toolbar .icon-button {
+    width: 25px;
+  }
+  .stat > div > span {
+    font-size: 9px;
+  }
+  .stat strong {
+    font-size: 15px;
+  }
+  .drawing-caption {
+    font-size: 9px;
+    max-width: 49%;
+  }
+  .section-title h3 {
+    font-size: 11px;
+  }
+  .canvas-legend,
+  .canvas-legend .legend-right {
+    font-size: 9px;
+  }
+}
+@media (max-width: 390px) {
+  .canvas-toolbar strong {
+    max-width: 100px;
+  }
+  .canvas-toolbar .icon-button {
+    width: 23px;
+  }
+}
